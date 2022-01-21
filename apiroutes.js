@@ -14,20 +14,19 @@ router.get("/notes", (req, res) => {
 
  router.post("/notes", (req, res) => {
     let allSavedNotes = fs.readFileSync(path.join(__dirname, "./db/db.json"));
+    req.body.id = uuidv4();
     let newNote = req.body;
     console.log(newNote);
-    req.body.id = uuidv4();
     allSavedNotes = JSON.parse(allSavedNotes);
     allSavedNotes.push(newNote);
     fs.writeFileSync(path.join(__dirname, "./db/db.json"), JSON.stringify(allSavedNotes));
-    allSavedNotes = JSON.parse(allSavedNotes);
-    res.json(allSavedNotes);
+    res.json(newNote);
     
  })
 
 router.delete("/notes/:id", (req, res) =>{
    // let noteId = req.params.id;
-   const allSavedNotes = fs.readFileSync(path.join(__dirname, "./db/db.json"));
+   let allSavedNotes = fs.readFileSync(path.join(__dirname, "./db/db.json"));
    allSavedNotes = JSON.parse(allSavedNotes);
 
    for (let i = 0; i < allSavedNotes.length; i++){
@@ -37,8 +36,7 @@ router.delete("/notes/:id", (req, res) =>{
    }
 
    fs.writeFileSync(path.join(__dirname, "./db/db.json"), JSON.stringify(allSavedNotes));
-   allSavedNotes = JSON.parse(allSavedNotes);
-   res.json(allSavedNotes);
+   res.sendStatus(200);
 })
 
 module.exports = router;
