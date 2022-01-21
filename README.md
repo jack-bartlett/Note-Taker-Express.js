@@ -39,8 +39,7 @@ N/A
 ## License
     This project is licensed under the MIT license.
     
-![ScreenShot Deployed App](assets/Deployed_Note_Taker_App.png)
-
+![Deployed Note Taker App](https://user-images.githubusercontent.com/90886034/150461984-ff8115bf-06da-450a-80e4-0463297ab6f7.png)
 
 
 ## Questions 
