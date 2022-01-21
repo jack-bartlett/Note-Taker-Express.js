@@ -39,7 +39,7 @@ N/A
 ## License
     This project is licensed under the MIT license.
     
-![ScreenShot Deployed App](./assets/Deployed_Note_Taker_App.png)
+![ScreenShot Deployed App](assets/Deployed_Note_Taker_App.png)
 
 
 
