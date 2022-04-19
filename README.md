@@ -22,7 +22,7 @@
 Note-Taker
 
 ## Description
-Allows you to save and delete notes on the fly
+Allows you to create, save and delete notes on the fly
 
 ## Installation
 Follow the URL link
