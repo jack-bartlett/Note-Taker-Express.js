@@ -12,8 +12,6 @@
 
   * [Contribution](#contribution)
 
-  * [Tests](#tests)
-
   * [License](#license)
 
   * [Questions](#questions)
@@ -22,7 +20,7 @@
 Note-Taker
 
 ## Description
-Allows you to create, save and delete notes on the fly. When the title and body inputs are filled, the save button appears in the top right, click to save when ready. Saved notes are stored on left panel.
+Allows you to create, save and delete notes on the fly. When the title and body inputs are filled, the save button appears in the top right, click to save when ready. Saved notes are stored on the left panel.
 
 ## Installation
 Install node
@@ -31,9 +29,6 @@ Install node
 Click the + symbol to add a new note. Click the Save (floppy disk) symbol to save notes. Click the trash can symbol to delete notes. 
 
 ## Contribution
-N/A
-
-## Tests
 N/A
 
 ## License
