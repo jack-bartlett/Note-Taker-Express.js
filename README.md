@@ -22,10 +22,10 @@
 Note-Taker
 
 ## Description
-Allows you to create, save and delete notes on the fly
+Allows you to create, save and delete notes on the fly. When the title and body inputs are filled, the save button appears in the top right, click to save when ready. Saved notes are stored on left panel.
 
 ## Installation
-Follow the URL link
+Install node
 
 ## Usage 
 Click the + symbol to add a new note. Click the Save (floppy disk) symbol to save notes. Click the trash can symbol to delete notes. 
