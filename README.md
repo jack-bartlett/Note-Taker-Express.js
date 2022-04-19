@@ -37,7 +37,6 @@ N/A
 ![Note-Taker-ExpressJs](https://user-images.githubusercontent.com/90886034/164114402-e66bae87-1ee1-46f9-a105-45503e753c64.png)
 ![Note-Taker-ExpressJs-1](https://user-images.githubusercontent.com/90886034/164114475-bfd99e29-3513-411b-8c5e-9060cba3dea4.png)
 ![Note-Taker-ExpressJs-2](https://user-images.githubusercontent.com/90886034/164114484-9e7e99fd-baab-42d6-a456-3338b280320c.png)
-![Note-Taker-ExpressJs-3](https://user-images.githubusercontent.com/90886034/164114491-f69b2adf-d56f-4deb-bbec-1bae66d8f936.png)
 
 ## Questions 
 
