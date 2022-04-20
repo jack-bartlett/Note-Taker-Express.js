@@ -20,7 +20,7 @@
 Note-Taker
 
 ## Deployed App
-https://dashboard.heroku.com/apps/express-app-11hw
+https://express-app-11hw.herokuapp.com/
 
 ## Description
 Allows you to create, save and delete notes on the fly. When the title and body inputs are filled, the save button appears in the top right, click to save when ready. Saved notes are stored on the left panel.
